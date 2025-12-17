@@ -1,0 +1,25 @@
+body {
+  font-family: roboto, arial;
+  font-size: 14px;
+}
+
+input {
+  border-radius: 3px;
+  border-width: 2px;
+  border-style: solid;
+  padding: 6px;
+  width: 400px;
+}
+
+p {
+  color: rgb(96, 96, 96);
+}
+
+button {
+  color: white;
+  background-color: blue;
+  font-size: 14px;
+  padding: 12px 160px;
+  border: none;
+  border-radius: 20px;
+}

@@ -1,0 +1,11 @@
+p {
+  margin: 0 0 8px;
+  text-align: center;
+  font-family: Montserrat, Arial;
+  font-size: 14px;
+}
+
+.title-text {
+  font-size: 22px;
+  font-weight: bold;
+}

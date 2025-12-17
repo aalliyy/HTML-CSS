@@ -1,0 +1,32 @@
+body {
+  font-family: roboto, arial;
+  color: rgb(96, 96, 96);
+  font-size: 14px;
+}
+
+img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  object-position: 75% center;
+  border-radius: 25px;
+  vertical-align: middle;
+}
+
+input {
+  border: none;
+  font-size: 14px;
+  width: 250px;
+  vertical-align: middle;
+}
+
+button {
+  color: white;
+  background-color: rgb(31, 31, 255);
+  border: none;
+  font-size: 14px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  vertical-align: middle;
+}

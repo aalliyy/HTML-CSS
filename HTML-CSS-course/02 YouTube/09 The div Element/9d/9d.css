@@ -1,0 +1,19 @@
+div {
+  font-family: roboto, arial;
+  color: white;
+  background-color: rgb(42, 42, 42);
+  padding: 12px 12px;
+  width: 280px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+
+.text {
+  color: rgb(160, 160, 160);
+  font-size: 14px;
+  margin: 0;
+}

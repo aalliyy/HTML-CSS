@@ -1,0 +1,7 @@
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  object-position: 75% center;
+  border-radius: 50px;
+}

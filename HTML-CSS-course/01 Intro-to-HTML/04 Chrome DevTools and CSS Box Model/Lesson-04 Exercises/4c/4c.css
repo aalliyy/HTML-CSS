@@ -1,0 +1,13 @@
+button {
+  color: white;
+  background-color: rgb(46,164,79);
+  border: none;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 4px;
+  transition: box-shadow 0.15s;
+}
+
+button:hover {
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.15);
+}

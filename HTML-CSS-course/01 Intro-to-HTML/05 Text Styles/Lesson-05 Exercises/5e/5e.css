@@ -1,0 +1,39 @@
+p {
+  margin: 0 0 8px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.new-text {
+  color: red;
+  font-size: 12px;
+}
+
+.sub-text {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.title-text {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.price-text {
+  font-size: 12px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-color: rgb(0, 113, 227);
+  color: white;
+  padding: 7px 15px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
