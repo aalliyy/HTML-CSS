@@ -1,0 +1,63 @@
+body {
+  height: 3000px;
+}
+
+p {
+  font-family: Roboto, Arial;
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+input {
+  font-family: roboto, arial;
+  display: block;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 16px;
+}
+
+.video-preview {
+  width: 100%;
+}
+
+.thumbnail-div {
+  margin-bottom: 6px;
+}
+
+.thumbnail {
+  width: 100%;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-div {
+  width: 50px;
+}
+
+.channel-picture {
+  width: 45px;
+  border-radius: 30px;
+}
+
+.title-text {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  line-height: 24px;
+}
+
+.views-text {
+  margin: 12px 0 0 0;
+}
+
+.name-text {
+  margin: 4px 0;
+}
