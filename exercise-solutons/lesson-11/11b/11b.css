@@ -1,0 +1,16 @@
+.outer {
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+
+.div-1 {
+  background-color: lightblue;
+}
+
+.div-2 {
+  background-color: lightpink;
+}
+
+.div-3 {
+  background-color: lightblue;
+}

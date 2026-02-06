@@ -1,0 +1,13 @@
+.outer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+.div-1,
+.div-2,
+.div-3,
+.div-4 {
+  background-color: lightpink;
+}
