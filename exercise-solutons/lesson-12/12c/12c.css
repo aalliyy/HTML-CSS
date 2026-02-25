@@ -1,0 +1,20 @@
+.outer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.div-1 {
+  background-color: lightpink;
+}
+
+.div-2 {
+  background-color: lightpink;
+}
+
+.div-3 {
+  background-color: lightpink;
+}
+
+.div-4 {
+  background-color: lightpink;
+}

@@ -1,0 +1,17 @@
+.outer {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  border-radius: 1px;
+  border-color: gray;
+  border-style: solid;
+  align-items: center;
+}
+
+.div-1 {
+  background-color: lightpink;
+}
+
+.div-2 {
+  background-color: lightpink;
+}

@@ -1,0 +1,18 @@
+.outer {
+  display: flex;
+}
+
+.div-1 {
+  background-color: lightblue;
+  width: 50px;
+}
+
+.div-2 {
+  background-color: lightpink;
+  flex: 1;
+}
+
+.div-3 {
+  background-color: lightblue;
+  width: 75px;
+}

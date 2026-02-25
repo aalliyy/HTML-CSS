@@ -1,0 +1,38 @@
+.outer {
+  display: flex;
+  width: 520px;
+  justify-content: space-between;
+  padding: 8px 12px;
+  background-color: rgb(161, 29, 161);
+  align-items: center;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: arial;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+input {
+  width: 250px;
+  border-radius: 30px;
+  border: none;
+  padding: 5px 14px;
+  font-size: 12px;
+}
+
+button {
+  color: white;
+  font-family: arial;
+  background-color: rgb(161, 29, 161);
+  border-radius: 3px;
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  padding: 5px 12px;
+  cursor: pointer;
+}

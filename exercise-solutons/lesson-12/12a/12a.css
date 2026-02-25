@@ -1,0 +1,13 @@
+.outer {
+  display: flex;
+}
+
+.div-1 {
+  background-color: lightblue;
+  width: 200px;
+}
+
+.div-2 {
+  background-color: lightpink;
+  width: 75px;
+}
