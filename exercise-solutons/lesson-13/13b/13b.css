@@ -1,0 +1,27 @@
+.outer {
+  display: flex;
+  height: 50px;
+}
+
+.div-1 {
+  background-color: lightpink;
+  width: 100px;
+}
+
+.div-2 {
+  background-color: lightblue;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  color: white;
+  background-color: black;
+  margin: 0;
+}

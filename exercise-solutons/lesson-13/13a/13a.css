@@ -1,0 +1,22 @@
+.outer {
+  display: flex;
+}
+
+.div-1 {
+  background-color: lightpink;
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  color: white;
+  background-color: black;
+}
+
+.div-2 {
+  background-color: lightblue;
+  width: 200px;
+}
