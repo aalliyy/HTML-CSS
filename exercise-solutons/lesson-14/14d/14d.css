@@ -1,0 +1,45 @@
+body {
+  height: 3000px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  color: white;
+  background-color: green;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  color: black;
+  background-color: white;
+  padding: 16px;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.modal-title {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: roboto, arial;
+  margin: 0;
+}
+
+.modal-text {
+  font-size: 16px;
+  margin: 6px 0 10px 0;
+}
