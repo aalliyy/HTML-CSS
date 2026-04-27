@@ -1,0 +1,14 @@
+body {
+  position: relative;
+  height: 3000px;
+  padding: 0;
+}
+
+div {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+}

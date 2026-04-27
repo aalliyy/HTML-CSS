@@ -1,0 +1,17 @@
+body {
+  position: relative;
+  height: 3000px;
+}
+
+button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}

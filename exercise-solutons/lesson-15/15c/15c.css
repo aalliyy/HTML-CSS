@@ -1,0 +1,27 @@
+body {
+  position: relative;
+  height: 3000px;
+  padding: 0;
+}
+
+div {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 320px;
+  height: 180px;
+  background-color: gray;
+}
+
+.close-button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 4px 7px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 16px;
+  position: absolute;
+  top: -6px;
+  left: -6px;
+}
