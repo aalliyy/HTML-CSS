@@ -1,0 +1,150 @@
+a {
+  text-decoration: none;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 40px;
+  column-gap: 16px;
+}
+
+.video-preview {
+  width: 100%;
+}
+
+.thumbnail-div {
+  margin-bottom: 4px;
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  cursor: pointer;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 10px;
+  right: 6px;
+  color: white;
+  background-color: black;
+  padding: 3px 4px;
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+
+.profile-div {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.profile-div:hover .container{
+  opacity: 1;
+}
+
+.profile-div .container {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.profile-div .image-div {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  padding: 6px;
+}
+
+.profile-div .inner-pic {
+  padding: 0;
+  margin: 0;
+  width: 40px;
+  border-radius: 36px;
+}
+
+.profile-div .texts {
+  display: flex;
+  flex-direction: column;
+  margin-right: 7px;
+}
+
+.profile-div .name-text {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-family: roboto, arial;
+  font-weight: 700;
+  margin-bottom: 1px;
+  white-space: nowrap;
+}
+
+.profile-div .subs-text {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  font-family: roboto, arial;
+  white-space: nowrap;
+}
+
+.channel img {
+  width: 36px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.channel div {
+  font-family: roboto,arial;
+  font-size: 12px;
+}
+
+.channel-picture {
+  width: 36px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 0 8px 8px 0;
+}
+
+.title-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  margin: 0;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+.views-text {
+  font-size: 12px;
+  margin: 4px 0;
+}
+
+.name-text {
+  font-size: 12px;
+  margin: 12px 0 0 0;
+  cursor: pointer;
+}
